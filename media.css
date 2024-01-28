@@ -1,9 +1,9 @@
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 768px) {
     .desenho{
-        height: 500px;
-        width: 500px;
+        height: 800px;
+        width: 800px;
         z-index: -1;
-        margin-left: -120px;
+        margin-left: -260px;
     }
     .card-container {
         width: 40%;
@@ -14,8 +14,8 @@
         position: relative;
     }
     .card {
-        height: 120px;
-        width: 120px;
+        height: 160px;
+        width: 160px;
         background-color: #f1f1f1;
         border-radius: 3.5px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
