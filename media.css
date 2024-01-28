@@ -1,0 +1,31 @@
+@media screen and (max-width: 768px) {
+    .desenho{
+        height: 500px;
+        width: 500px;
+        z-index: -1;
+        margin-left: -120px;
+    }
+    .card-container {
+        width: 40%;
+        gap: 40px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px;
+        position: relative;
+    }
+    .card {
+        height: 120px;
+        width: 120px;
+        background-color: #f1f1f1;
+        border-radius: 3.5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .card-name {
+        white-space: initial;
+    }
+    .text-input {
+        height: 40px;
+        width: 60%;
+    
+}
+}

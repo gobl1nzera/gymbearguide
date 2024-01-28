@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Sport';
+    src: url('./assets/fonts/Sport.ttf') format('truetype'),
+}
+body {
+    background-color: black;
+    background-image: url('./assets/img/backgym.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    color: white;
+    max-width: 1920px;
+    padding: auto;
+    margin: 0;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center; /* Adicionado para centralizar o texto */
+    padding-top: 20px;
+    font-family: 'Sport';
+    background-color: black;
+    padding: 8px;
+    border-radius: 20px;
+}
+i {
+    color: #ffffff;
+    text-align: center; /* Adicionado para centralizar o texto */
+    font-family: 'Sport';
+    background-color: black;
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 28px ;
+    margin-top: 26px;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.desenho{
+    height: 1200px;
+    width: 1200px;
+    z-index: -1;
+    margin-left: -600px;
+    margin-bottom: -90px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 14px;
+    
+}
+
+.text-input {
+    height: 50px;
+    width: 40%;
+    border-radius: 20px;
+    font-size: 18px;
+    padding-left: 16px;
+    border: none;
+    outline: none;
+}
+
+
+
+.card-container {
+    width: 60%;
+    gap: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+    position: relative;
+}
+
+
+p {
+    color: #f1f1f1;
+    text-align: center;
+}
+
+.card {
+    height: 320px;
+    width: 320px;
+    background-color: #f1f1f1;
+    border-radius: 3.5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+    height: 100%;
+    width: 100%;
+    border-radius: 3.5px; /* Adicionado para coincidir com o raio de borda do cartão */
+}
