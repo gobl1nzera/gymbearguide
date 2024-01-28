@@ -32,6 +32,17 @@ h1 {
     font-size: 38px;
     white-space: nowrap;
 }
+h2 {
+    color: #ffffff;
+    text-align: center; /* Adicionado para centralizar o texto */
+    font-family: 'Sport';
+    font-weight: 200;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    white-space: nowrap;
+    margin-top: -50px;
+}
 i {
     color: #ffffff;
     text-align: center; /* Adicionado para centralizar o texto */
