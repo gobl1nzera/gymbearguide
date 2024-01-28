@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const textInput = document.getElementById('text-input');
+    textInput.addEventListener('input', convertToLowercase);
     textInput.addEventListener('keyup', handleKeyUp);
 });
 
@@ -45,6 +46,11 @@ function handleKeyUp(event) {
         // A tecla "Enter" foi pressionada, chama a função searchExercise
         searchExercise();
     }
+}
+
+function convertToLowercase() {
+    const textInput = document.getElementById('text-input');
+    textInput.value = textInput.value.toLowerCase();
 }
 
 function shuffleArray(array) {
