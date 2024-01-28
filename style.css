@@ -25,6 +25,7 @@ h1 {
     text-align: center; /* Adicionado para centralizar o texto */
     padding-top: 20px;
     font-family: 'Sport';
+    font-weight: 200;
     background-color: black;
     padding: 8px;
     border-radius: 20px;
