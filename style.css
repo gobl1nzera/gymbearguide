@@ -27,8 +27,10 @@ h1 {
     font-family: 'Sport';
     font-weight: 200;
     background-color: black;
-    padding: 8px;
+    padding: 10px;
     border-radius: 20px;
+    font-size: 38px;
+    white-space: nowrap;
 }
 i {
     color: #ffffff;
@@ -38,7 +40,7 @@ i {
     padding: 8px;
     border-radius: 20px;
     font-size: 28px ;
-    margin-top: 26px;
+    margin-top: 36px;
 }
 main {
     display: flex;
@@ -62,13 +64,14 @@ main {
 }
 
 .text-input {
-    height: 50px;
+    height: 80px;
     width: 40%;
     border-radius: 20px;
     font-size: 18px;
-    padding-left: 16px;
+    padding: 10px;
     border: none;
     outline: none;
+    font-size: 32px;
 }
 
 
